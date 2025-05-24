@@ -14,6 +14,15 @@
 #define NAV_L 1
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        Backtick {
+            bindings = <&kp GRAVE>;
+            key-positions = <15 16>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
