@@ -21,6 +21,11 @@
             bindings = <&kp GRAVE>;
             key-positions = <15 16>;
         };
+
+        Delete {
+            bindings = <&kp DELETE>;
+            key-positions = <27 13>;
+        };
     };
 
     keymap {
